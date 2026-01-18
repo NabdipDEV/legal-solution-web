@@ -6,6 +6,12 @@
 
 /* share css */
 
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
 .btn {
     padding: 12px 25px;
     background-color: #b68c5a;
@@ -26,7 +32,6 @@
 /* Navbar */
 
 .navbar {
-    max-width: 1170px;
     margin: 0 auto;
     padding: 20px 0;
     display: flex;
@@ -57,7 +62,6 @@
 /* Hero Section */
 
 .hero {
-    max-width: 1170px;
     margin: 50px auto;
     height: 450px;
     border-radius: 10px;
@@ -104,6 +108,73 @@
     border: none;
 }
 
-.search-box button {
-   
+
+/* practice css */
+
+.practice{
+    margin-bottom: 109px;
 }
+.practice-contant{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.practice-titel {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #414040;
+    margin-bottom: 24px;
+}
+
+.practice-bio {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #707070;
+    margin-bottom: 64px;
+}
+
+
+/* Grid */
+.practice-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Card */
+.card {
+    text-align: center;
+    padding: 56px 70px 70px 70px;
+    width: 100%;
+    max-width: 400px;
+    transition: 0.3s;
+}
+.border-1{
+    border: 1px solid #E7E7E7;
+    border-bottom: none;
+}
+.border-2{
+    border-top: 1px solid #E7E7E7;
+}
+
+.card:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.card-icon{
+    margin-bottom: 31px;
+}
+
+.card-name{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #414040;
+    margin-bottom: 24px;
+}
+
+.card-bio{
+    font-size: 1rem;
+    line-height: 26px;
+    color: #707070;
+    margin-bottom: 32px;
+}
+

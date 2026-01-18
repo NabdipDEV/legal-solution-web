@@ -133,14 +133,11 @@ body{
     margin-bottom: 64px;
 }
 
-
-/* Grid */
 .practice-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-/* Card */
 .card {
     text-align: center;
     padding: 56px 70px 70px 70px;
@@ -178,3 +175,96 @@ body{
     margin-bottom: 32px;
 }
 
+/* Client Say Section Full css */
+
+.testimonial {
+    max-width: 1200px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+/* section title */
+.testimonial .section-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.testimonial .section-header p {
+    font-size: 14px;
+    color: #777;
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+
+/* testimonial box */
+.testimonial-box {
+    position: relative;
+    height: 400px;
+    border-radius: 10px;
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("../images/banner.png"); /* background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* arrows */
+.arrow {
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.arrow.left {
+    left: 30px;
+}
+
+.arrow.right {
+    right: 30px;
+}
+
+/* content */
+.testimonial-content {
+    max-width: 700px;
+    color: #fff;
+    padding: 20px;
+}
+
+.client-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #b68c5a;
+}
+
+.client-img img {
+    padding-top: 8px;
+    width: 98%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-content h3 {
+    font-size: 18px;
+    color: #b68c5a;
+    margin-bottom: 5px;
+}
+
+.designation {
+    font-size: 13px;
+    color: #ccc;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.review {
+    font-size: 14px;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
